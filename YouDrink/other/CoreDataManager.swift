@@ -27,6 +27,10 @@ class CoreDataManager {
         return container
     }()
     
+    func entityForName(entityName: String) -> NSEntityDescription {
+        return NSEntityDescription.entity(forEntityName: entityName, in: self.persistentContainer.viewContext)!
+    }
+    
     // MARK: - Core Data Saving support
     
     func saveContext () {

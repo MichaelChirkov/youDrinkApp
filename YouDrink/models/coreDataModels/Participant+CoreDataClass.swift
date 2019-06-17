@@ -12,5 +12,7 @@ import CoreData
 
 @objc(Participant)
 public class Participant: AbstractEntity {
-
+    convenience init() {
+        self.init(entity: CoreDataManager.shared.entityForName(entityName: "Participant"), insertInto: CoreDataManager.shared.persistentContainer.viewContext)
+    }
 }

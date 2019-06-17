@@ -42,7 +42,7 @@
             </objects>
             <point key="canvasLocation" x="980" y="26.53673163418291"/>
         </scene>
-        <!--New GameVC-->
+        <!--Title-->
         <scene sceneID="IXY-mj-WoG">
             <objects>
                 <viewController id="uuc-0H-kSm" customClass="NewGameVC" customModule="YouDrink" customModuleProvider="target" sceneMemberID="viewController">
@@ -62,7 +62,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yE9-8J-tX0">
-                                                    <rect key="frame" x="15" y="12" width="994" height="21"/>
+                                                    <rect key="frame" x="15" y="12" width="345" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -95,6 +95,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1iB-Yi-wnF"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="Ei0-ck-bMs">
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="k4F-9B-jLj"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="participantsTableView" destination="peV-iq-TaO" id="gr0-as-ww4"/>
                     </connections>

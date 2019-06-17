@@ -29,7 +29,11 @@ class NewGameVC: UIViewController {
         
         self.navigationController?.view.addSubview(addParticipantButton)
         
-        // Do any additional setup after loading the view.
+        self.navigationItem.title = "Участники"
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        addParticipantButton.removeFromSuperview()
     }
     
     
@@ -39,7 +43,11 @@ class NewGameVC: UIViewController {
         
         let confirmAction = UIAlertAction(title: "confirm", style: .default) { action in
             let textField = alert.textFields?[0]
+            var newParticipant = Participant()
+            newParticipant.name = textField?.text
+            self.participants.insert(newParticipant, at: 0)
             
+            self.participantsTableView.reloadData()
         }
         
         let cancelAction = UIAlertAction(title: "cancel", style: .cancel, handler: nil)
@@ -63,18 +71,23 @@ class NewGameVC: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 }
+
+
+
+
+
+
 
 extension NewGameVC: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
+        return participants.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "participantCell") as! ParticipantCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "participantCell", for: indexPath) as! ParticipantCell
         
-        cell.participantNameLabel.text = "new participant"
+        cell.participantNameLabel.text = participants[indexPath.row].name
         
         return cell
     }

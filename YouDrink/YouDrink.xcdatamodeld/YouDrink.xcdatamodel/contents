@@ -10,6 +10,7 @@
     <entity name="Game" representedClassName="Game" parentEntity="AbstractEntity" syncable="YES">
         <attribute name="cardCount" optional="YES" attributeType="Integer 16" minValueString="4" defaultValueString="4" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="endDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="lastParticipantId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="startDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
         <relationship name="participants" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Participant" inverseName="game" inverseEntity="Participant" syncable="YES"/>
     </entity>
@@ -19,9 +20,9 @@
         <relationship name="game" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Game" inverseName="participants" inverseEntity="Game" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Game" positionX="-63" positionY="-18" width="128" height="105"/>
         <element name="AbstractEntity" positionX="-45" positionY="0" width="128" height="60"/>
-        <element name="Participant" positionX="-27" positionY="27" width="128" height="90"/>
         <element name="Card" positionX="-9" positionY="45" width="128" height="75"/>
+        <element name="Game" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="Participant" positionX="-27" positionY="27" width="128" height="90"/>
     </elements>
 </model>

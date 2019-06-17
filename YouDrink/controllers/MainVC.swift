@@ -15,7 +15,7 @@ class MainVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationController?.setNavigationBarHidden(true, animated: true)
+//        self.navigationController?.setNavigationBarHidden(true, animated: true)
         startGameButton.setTitle("Начать", for: .normal)
         // Do any additional setup after loading the view.
     }
