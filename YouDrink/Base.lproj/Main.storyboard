@@ -96,7 +96,12 @@
                         <viewLayoutGuide key="safeArea" id="1iB-Yi-wnF"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="Ei0-ck-bMs">
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="k4F-9B-jLj"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="k4F-9B-jLj">
+                            <connections>
+                                <action selector="saveAndStartButton:" destination="uuc-0H-kSm" id="6Tf-Yd-iWo"/>
+                                <segue destination="S09-aa-JyR" kind="show" identifier="startGameSegue" id="99j-Xq-H14"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="participantsTableView" destination="peV-iq-TaO" id="gr0-as-ww4"/>
@@ -105,6 +110,28 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yAv-B3-Gbc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1968.8" y="26.53673163418291"/>
+        </scene>
+        <!--GameVC-->
+        <scene sceneID="y09-tN-XgO">
+            <objects>
+                <viewController id="S09-aa-JyR" customClass="GameVC" customModule="YouDrink" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Q0-8S-6TK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H49-8f-SMU">
+                                <rect key="frame" x="67" y="129" width="240" height="470"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="vun-iJ-mD3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MrV-Xo-lG0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3082.4000000000001" y="30.134932533733135"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="had-YB-Qjx">

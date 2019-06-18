@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class MainVC: UIViewController {
 
@@ -14,6 +15,19 @@ class MainVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       
+        print("viewDidLoad")
+        do {
+            let fetchRequest : NSFetchRequest<Game> = Game.fetchRequest()
+            fetchRequest.predicate = NSPredicate(format: "endDate = nil")
+            
+            let results = try CoreDataManager.shared.persistentContainer.viewContext.fetch(        fetchRequest)
+            
+            print(results)
+            
+        } catch {
+            print(error)
+        }
         
 //        self.navigationController?.setNavigationBarHidden(true, animated: true)
         startGameButton.setTitle("Начать", for: .normal)

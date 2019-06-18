@@ -7,14 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE1BBB5922AD990E00417A64 /* Card+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BBB5122AD990E00417A64 /* Card+CoreDataClass.swift */; };
-		CE1BBB5A22AD990E00417A64 /* Card+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BBB5222AD990E00417A64 /* Card+CoreDataProperties.swift */; };
-		CE1BBB5B22AD990E00417A64 /* Game+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BBB5322AD990E00417A64 /* Game+CoreDataClass.swift */; };
-		CE1BBB5C22AD990E00417A64 /* Game+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BBB5422AD990E00417A64 /* Game+CoreDataProperties.swift */; };
-		CE1BBB5D22AD990E00417A64 /* AbstractEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BBB5522AD990E00417A64 /* AbstractEntity+CoreDataClass.swift */; };
-		CE1BBB5E22AD990E00417A64 /* AbstractEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BBB5622AD990E00417A64 /* AbstractEntity+CoreDataProperties.swift */; };
-		CE1BBB5F22AD990E00417A64 /* Participant+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BBB5722AD990E00417A64 /* Participant+CoreDataClass.swift */; };
-		CE1BBB6022AD990E00417A64 /* Participant+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BBB5822AD990E00417A64 /* Participant+CoreDataProperties.swift */; };
 		CE1BBB6522AD99F000417A64 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BBB6422AD99F000417A64 /* MainVC.swift */; };
 		CE1BBB6722AD9EFC00417A64 /* NewGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BBB6622AD9EFC00417A64 /* NewGameVC.swift */; };
 		CE1BBB6A22ADB27200417A64 /* ParticipantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BBB6922ADB27200417A64 /* ParticipantCell.swift */; };
@@ -26,6 +18,15 @@
 		CE6A474522AD5F1A008B8022 /* YouDrinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A474422AD5F1A008B8022 /* YouDrinkTests.swift */; };
 		CE6A475022AD5F1A008B8022 /* YouDrinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A474F22AD5F1A008B8022 /* YouDrinkUITests.swift */; };
 		CE95E97F22B2E14A00B4EEED /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95E97E22B2E14A00B4EEED /* CoreDataManager.swift */; };
+		CED2AA4C22B95B1100FD8A0E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2AA4B22B95B1100FD8A0E /* Card.swift */; };
+		CED2AA4E22B95C8100FD8A0E /* cards.json in Resources */ = {isa = PBXBuildFile; fileRef = CED2AA4D22B95C8100FD8A0E /* cards.json */; };
+		CED2AA5022B9623600FD8A0E /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2AA4F22B9623600FD8A0E /* GameVC.swift */; };
+		CED2AA6322B9721D00FD8A0E /* Participant+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2AA5D22B9721D00FD8A0E /* Participant+CoreDataClass.swift */; };
+		CED2AA6422B9721D00FD8A0E /* Participant+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2AA5E22B9721D00FD8A0E /* Participant+CoreDataProperties.swift */; };
+		CED2AA6522B9721D00FD8A0E /* AbstractEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2AA5F22B9721D00FD8A0E /* AbstractEntity+CoreDataClass.swift */; };
+		CED2AA6622B9721D00FD8A0E /* AbstractEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2AA6022B9721D00FD8A0E /* AbstractEntity+CoreDataProperties.swift */; };
+		CED2AA6722B9721D00FD8A0E /* Game+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2AA6122B9721D00FD8A0E /* Game+CoreDataClass.swift */; };
+		CED2AA6822B9721D00FD8A0E /* Game+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2AA6222B9721D00FD8A0E /* Game+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,14 +47,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CE1BBB5122AD990E00417A64 /* Card+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Card+CoreDataClass.swift"; sourceTree = "<group>"; };
-		CE1BBB5222AD990E00417A64 /* Card+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Card+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		CE1BBB5322AD990E00417A64 /* Game+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game+CoreDataClass.swift"; sourceTree = "<group>"; };
-		CE1BBB5422AD990E00417A64 /* Game+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		CE1BBB5522AD990E00417A64 /* AbstractEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AbstractEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
-		CE1BBB5622AD990E00417A64 /* AbstractEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AbstractEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		CE1BBB5722AD990E00417A64 /* Participant+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Participant+CoreDataClass.swift"; sourceTree = "<group>"; };
-		CE1BBB5822AD990E00417A64 /* Participant+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Participant+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		CE1BBB6422AD99F000417A64 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		CE1BBB6622AD9EFC00417A64 /* NewGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGameVC.swift; sourceTree = "<group>"; };
 		CE1BBB6922ADB27200417A64 /* ParticipantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantCell.swift; sourceTree = "<group>"; };
@@ -71,6 +64,15 @@
 		CE6A474F22AD5F1A008B8022 /* YouDrinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouDrinkUITests.swift; sourceTree = "<group>"; };
 		CE6A475122AD5F1A008B8022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE95E97E22B2E14A00B4EEED /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		CED2AA4B22B95B1100FD8A0E /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		CED2AA4D22B95C8100FD8A0E /* cards.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cards.json; sourceTree = "<group>"; };
+		CED2AA4F22B9623600FD8A0E /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
+		CED2AA5D22B9721D00FD8A0E /* Participant+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Participant+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CED2AA5E22B9721D00FD8A0E /* Participant+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Participant+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CED2AA5F22B9721D00FD8A0E /* AbstractEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AbstractEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CED2AA6022B9721D00FD8A0E /* AbstractEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AbstractEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CED2AA6122B9721D00FD8A0E /* Game+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CED2AA6222B9721D00FD8A0E /* Game+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +103,12 @@
 		CE1BBB6122AD991B00417A64 /* coreDataModels */ = {
 			isa = PBXGroup;
 			children = (
-				CE1BBB5122AD990E00417A64 /* Card+CoreDataClass.swift */,
-				CE1BBB5222AD990E00417A64 /* Card+CoreDataProperties.swift */,
-				CE1BBB5322AD990E00417A64 /* Game+CoreDataClass.swift */,
-				CE1BBB5422AD990E00417A64 /* Game+CoreDataProperties.swift */,
-				CE1BBB5522AD990E00417A64 /* AbstractEntity+CoreDataClass.swift */,
-				CE1BBB5622AD990E00417A64 /* AbstractEntity+CoreDataProperties.swift */,
-				CE1BBB5722AD990E00417A64 /* Participant+CoreDataClass.swift */,
-				CE1BBB5822AD990E00417A64 /* Participant+CoreDataProperties.swift */,
+				CED2AA5D22B9721D00FD8A0E /* Participant+CoreDataClass.swift */,
+				CED2AA5E22B9721D00FD8A0E /* Participant+CoreDataProperties.swift */,
+				CED2AA5F22B9721D00FD8A0E /* AbstractEntity+CoreDataClass.swift */,
+				CED2AA6022B9721D00FD8A0E /* AbstractEntity+CoreDataProperties.swift */,
+				CED2AA6122B9721D00FD8A0E /* Game+CoreDataClass.swift */,
+				CED2AA6222B9721D00FD8A0E /* Game+CoreDataProperties.swift */,
 			);
 			path = coreDataModels;
 			sourceTree = "<group>";
@@ -154,6 +154,7 @@
 				CE6A473822AD5F19008B8022 /* LaunchScreen.storyboard */,
 				CE6A473B22AD5F19008B8022 /* Info.plist */,
 				CE6A473322AD5F16008B8022 /* YouDrink.xcdatamodeld */,
+				CED2AA4D22B95C8100FD8A0E /* cards.json */,
 			);
 			path = YouDrink;
 			sourceTree = "<group>";
@@ -181,6 +182,7 @@
 			children = (
 				CE1BBB6422AD99F000417A64 /* MainVC.swift */,
 				CE1BBB6622AD9EFC00417A64 /* NewGameVC.swift */,
+				CED2AA4F22B9623600FD8A0E /* GameVC.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -189,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				CE1BBB6122AD991B00417A64 /* coreDataModels */,
+				CED2AA4B22B95B1100FD8A0E /* Card.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				CE6A473A22AD5F19008B8022 /* LaunchScreen.storyboard in Resources */,
 				CE6A473722AD5F19008B8022 /* Assets.xcassets in Resources */,
 				CE6A473222AD5F16008B8022 /* Main.storyboard in Resources */,
+				CED2AA4E22B95C8100FD8A0E /* cards.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,20 +328,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE1BBB6022AD990E00417A64 /* Participant+CoreDataProperties.swift in Sources */,
 				CE1BBB6A22ADB27200417A64 /* ParticipantCell.swift in Sources */,
-				CE1BBB5C22AD990E00417A64 /* Game+CoreDataProperties.swift in Sources */,
-				CE1BBB5D22AD990E00417A64 /* AbstractEntity+CoreDataClass.swift in Sources */,
-				CE1BBB5A22AD990E00417A64 /* Card+CoreDataProperties.swift in Sources */,
+				CED2AA5022B9623600FD8A0E /* GameVC.swift in Sources */,
+				CED2AA6322B9721D00FD8A0E /* Participant+CoreDataClass.swift in Sources */,
+				CED2AA6422B9721D00FD8A0E /* Participant+CoreDataProperties.swift in Sources */,
+				CED2AA4C22B95B1100FD8A0E /* Card.swift in Sources */,
 				CE1BBB6522AD99F000417A64 /* MainVC.swift in Sources */,
-				CE1BBB5922AD990E00417A64 /* Card+CoreDataClass.swift in Sources */,
-				CE1BBB5F22AD990E00417A64 /* Participant+CoreDataClass.swift in Sources */,
 				CE6A473522AD5F16008B8022 /* YouDrink.xcdatamodeld in Sources */,
+				CED2AA6722B9721D00FD8A0E /* Game+CoreDataClass.swift in Sources */,
 				CE6A472D22AD5F16008B8022 /* AppDelegate.swift in Sources */,
-				CE1BBB5E22AD990E00417A64 /* AbstractEntity+CoreDataProperties.swift in Sources */,
-				CE1BBB5B22AD990E00417A64 /* Game+CoreDataClass.swift in Sources */,
 				CE95E97F22B2E14A00B4EEED /* CoreDataManager.swift in Sources */,
 				CE1BBB6722AD9EFC00417A64 /* NewGameVC.swift in Sources */,
+				CED2AA6622B9721D00FD8A0E /* AbstractEntity+CoreDataProperties.swift in Sources */,
+				CED2AA6522B9721D00FD8A0E /* AbstractEntity+CoreDataClass.swift in Sources */,
+				CED2AA6822B9721D00FD8A0E /* Game+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

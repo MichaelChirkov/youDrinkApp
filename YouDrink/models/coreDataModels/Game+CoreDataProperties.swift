@@ -2,7 +2,7 @@
 //  Game+CoreDataProperties.swift
 //  YouDrink
 //
-//  Created by user on 09/06/2019.
+//  Created by user on 18/06/2019.
 //  Copyright © 2019 Chirkov. All rights reserved.
 //
 //
@@ -17,9 +17,9 @@ extension Game {
         return NSFetchRequest<Game>(entityName: "Game")
     }
 
-    @NSManaged public var startDate: NSDate?
     @NSManaged public var endDate: NSDate?
-    @NSManaged public var cardCount: Int16
+    @NSManaged public var startDate: NSDate?
+    @NSManaged public var lastParticipantId: Int16
     @NSManaged public var participants: NSSet?
 
 }
