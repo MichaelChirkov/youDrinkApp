@@ -72,10 +72,8 @@ class NewGameVC: UIViewController {
         let newGame = Game()
         newGame.participants = NSSet(array: self.participants)
         newGame.startDate = NSDate()
-
         CoreDataManager.shared.saveContext()
     }
- 
 }
 
 

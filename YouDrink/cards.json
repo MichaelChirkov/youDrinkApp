@@ -1,40 +1,40 @@
 {
-    "testCards":[
+    "cards":[
         {
             "title": "first card",
-            "count": "16"
+            "count": 16
         },
         {
             "title": "first2 card",
-            "count": "16"
+            "count": 16
         },
         {
             "title": "first3 card",
-            "count": "16"
+            "count": 16
         },
         {
             "title": "first4 card",
-            "count": "16"
+            "count": 16
         },
         {
             "title": "first5 card",
-            "count": "16"
+            "count": 16
         },
         {
             "title": "first6 card",
-            "count": "16"
+            "count": 16
         },
         {
             "title": "first7 card",
-            "count": "16"
+            "count": 16
         },
         {
             "title": "first8 card",
-            "count": "16"
+            "count": 16
         },
         {
             "title": "first9 card",
-            "count": "16"
+            "count": 16
         }
     ]
 }

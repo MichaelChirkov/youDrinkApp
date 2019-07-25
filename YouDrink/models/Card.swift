@@ -8,7 +8,14 @@
 
 import UIKit
 
-class Card: NSObject {
+struct Card: Decodable {
 
-    var title: String?
+    var title: String
+    var frontImage: String?
+    var backImage: String?
+    var count: Int
+}
+
+struct ResponseData: Decodable{
+    var cards: [Card]
 }
