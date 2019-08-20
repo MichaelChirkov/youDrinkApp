@@ -2,20 +2,15 @@
 //  Card.swift
 //  YouDrink
 //
-//  Created by user on 18/06/2019.
+//  Created by user on 11/08/2019.
 //  Copyright © 2019 Chirkov. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-struct Card: Decodable {
-
-    var title: String
-    var frontImage: String?
-    var backImage: String?
-    var count: Int
-}
-
-struct ResponseData: Decodable{
-    var cards: [Card]
+protocol Card {
+    var imageUrl: String { get }
+    var classname: String { get }
+    
+    func action(viewController: GameVC)
 }

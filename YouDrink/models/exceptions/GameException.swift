@@ -11,4 +11,5 @@ import Foundation
 enum GameException : Error{
     
     case noSuchGameError
+    case noPhotoPresented
 }

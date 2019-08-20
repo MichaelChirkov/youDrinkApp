@@ -8,23 +8,33 @@
 
 import Foundation
 
-class CardServiceImpl : CardService{
+class CardServiceImpl : CardService {
+   
+    private var factory = CardFactory()
     
-    func initCardsArray(fileName: String) -> [Card]{
-        var resultArray = [Card]()
+    
+    func initCardsArray(fileName: String, gameVC: GameVC) -> [Card] {
+        let jsonCards = loadFromJSON(fileName: fileName)
+        var result = [Card]()
+        
+        for json in jsonCards {            
+            for _ in 0...json.count {
+                result.append(factory.createCard(json: json))
+            }
+        }
+        
+        return result.shuffled()
+    }
+    
+    
+    func loadFromJSON(fileName: String) -> [CardJSON]{
+        var resultArray = [CardJSON]()
 
-        if let url = Bundle.main.url(forResource: fileName, withExtension: "json"){
+        if let url = Bundle.main.url(forResource: fileName, withExtension: "json") {
             do {
                 let data = try Data(contentsOf: url)
                 let decoder = JSONDecoder()
-                let jsonData = try decoder.decode(ResponseData.self, from: data)
-                
-                for card in jsonData.cards {
-                    for _ in 0...card.count {
-                        resultArray.append(card)
-                    }
-                }
-                
+                resultArray = try decoder.decode(ResponseData.self, from: data).cards
             } catch {
                 print("error:\(error)")
             }

@@ -10,5 +10,7 @@ import Foundation
 
 protocol CardService {
     
-   func initCardsArray(fileName: String) -> [Card]
+   func loadFromJSON(fileName: String) -> [CardJSON]
+    
+   func initCardsArray(fileName: String, gameVC: GameVC) -> [Card]
 }

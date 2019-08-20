@@ -7,11 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0760F12300694100ABB7D3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0760F02300694100ABB7D3 /* Card.swift */; };
 		CE1BBB6522AD99F000417A64 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BBB6422AD99F000417A64 /* MainVC.swift */; };
 		CE1BBB6722AD9EFC00417A64 /* NewGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BBB6622AD9EFC00417A64 /* NewGameVC.swift */; };
 		CE1BBB6A22ADB27200417A64 /* ParticipantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BBB6922ADB27200417A64 /* ParticipantCell.swift */; };
 		CE33A03522BA7D260097CE36 /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE33A03422BA7D260097CE36 /* GameService.swift */; };
 		CE33A03822BA7FA80097CE36 /* GameException.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE33A03722BA7FA80097CE36 /* GameException.swift */; };
+		CE3AF0452303F9570041B3D8 /* SimpleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3AF0442303F9570041B3D8 /* SimpleCard.swift */; };
+		CE3AF0472303FA390041B3D8 /* CardFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3AF0462303FA390041B3D8 /* CardFactory.swift */; };
+		CE3AF0492303FC3C0041B3D8 /* ExtraLifeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3AF0482303FC3C0041B3D8 /* ExtraLifeCard.swift */; };
+		CE3AF04B2303FCEC0041B3D8 /* QuestionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3AF04A2303FCEC0041B3D8 /* QuestionCard.swift */; };
+		CE3AF04D23043F040041B3D8 /* GameServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3AF04C23043F040041B3D8 /* GameServiceImpl.swift */; };
+		CE53572C230493C600B61E88 /* ParticipantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53572B230493C600B61E88 /* ParticipantService.swift */; };
+		CE53572E2304948500B61E88 /* ParticipantServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53572D2304948500B61E88 /* ParticipantServiceImpl.swift */; };
+		CE5357302304A0A800B61E88 /* EditParticipantVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53572F2304A0A800B61E88 /* EditParticipantVC.swift */; };
 		CE6A472D22AD5F16008B8022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A472C22AD5F16008B8022 /* AppDelegate.swift */; };
 		CE6A473222AD5F16008B8022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6A473022AD5F16008B8022 /* Main.storyboard */; };
 		CE6A473522AD5F16008B8022 /* YouDrink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE6A473322AD5F16008B8022 /* YouDrink.xcdatamodeld */; };
@@ -19,14 +28,15 @@
 		CE6A473A22AD5F19008B8022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6A473822AD5F19008B8022 /* LaunchScreen.storyboard */; };
 		CE6A474522AD5F1A008B8022 /* YouDrinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A474422AD5F1A008B8022 /* YouDrinkTests.swift */; };
 		CE6A475022AD5F1A008B8022 /* YouDrinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A474F22AD5F1A008B8022 /* YouDrinkUITests.swift */; };
+		CE7B55A0230C9C21005349EA /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7B559F230C9C21005349EA /* Media.xcassets */; };
+		CE7B55A3230CA5A9005349EA /* Participant+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B55A1230CA5A9005349EA /* Participant+CoreDataClass.swift */; };
+		CE7B55A4230CA5A9005349EA /* Participant+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B55A2230CA5A9005349EA /* Participant+CoreDataProperties.swift */; };
 		CE95E97F22B2E14A00B4EEED /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95E97E22B2E14A00B4EEED /* CoreDataManager.swift */; };
 		CECF104022EA21A800E6C624 /* CardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECF103F22EA21A800E6C624 /* CardService.swift */; };
 		CECF104322EA220100E6C624 /* CardServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECF104222EA220100E6C624 /* CardServiceImpl.swift */; };
-		CED2AA4C22B95B1100FD8A0E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2AA4B22B95B1100FD8A0E /* Card.swift */; };
+		CED2AA4C22B95B1100FD8A0E /* CardJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2AA4B22B95B1100FD8A0E /* CardJSON.swift */; };
 		CED2AA4E22B95C8100FD8A0E /* cards.json in Resources */ = {isa = PBXBuildFile; fileRef = CED2AA4D22B95C8100FD8A0E /* cards.json */; };
 		CED2AA5022B9623600FD8A0E /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2AA4F22B9623600FD8A0E /* GameVC.swift */; };
-		CED2AA6322B9721D00FD8A0E /* Participant+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2AA5D22B9721D00FD8A0E /* Participant+CoreDataClass.swift */; };
-		CED2AA6422B9721D00FD8A0E /* Participant+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2AA5E22B9721D00FD8A0E /* Participant+CoreDataProperties.swift */; };
 		CED2AA6522B9721D00FD8A0E /* AbstractEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2AA5F22B9721D00FD8A0E /* AbstractEntity+CoreDataClass.swift */; };
 		CED2AA6622B9721D00FD8A0E /* AbstractEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2AA6022B9721D00FD8A0E /* AbstractEntity+CoreDataProperties.swift */; };
 		CED2AA6722B9721D00FD8A0E /* Game+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED2AA6122B9721D00FD8A0E /* Game+CoreDataClass.swift */; };
@@ -51,11 +61,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE0760F02300694100ABB7D3 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		CE1BBB6422AD99F000417A64 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		CE1BBB6622AD9EFC00417A64 /* NewGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGameVC.swift; sourceTree = "<group>"; };
 		CE1BBB6922ADB27200417A64 /* ParticipantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantCell.swift; sourceTree = "<group>"; };
 		CE33A03422BA7D260097CE36 /* GameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
 		CE33A03722BA7FA80097CE36 /* GameException.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameException.swift; sourceTree = "<group>"; };
+		CE3AF0442303F9570041B3D8 /* SimpleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCard.swift; sourceTree = "<group>"; };
+		CE3AF0462303FA390041B3D8 /* CardFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFactory.swift; sourceTree = "<group>"; };
+		CE3AF0482303FC3C0041B3D8 /* ExtraLifeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraLifeCard.swift; sourceTree = "<group>"; };
+		CE3AF04A2303FCEC0041B3D8 /* QuestionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCard.swift; sourceTree = "<group>"; };
+		CE3AF04C23043F040041B3D8 /* GameServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameServiceImpl.swift; sourceTree = "<group>"; };
+		CE53572B230493C600B61E88 /* ParticipantService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantService.swift; sourceTree = "<group>"; };
+		CE53572D2304948500B61E88 /* ParticipantServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantServiceImpl.swift; sourceTree = "<group>"; };
+		CE53572F2304A0A800B61E88 /* EditParticipantVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditParticipantVC.swift; sourceTree = "<group>"; };
 		CE6A472922AD5F16008B8022 /* YouDrink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouDrink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6A472C22AD5F16008B8022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE6A473122AD5F16008B8022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -69,14 +88,15 @@
 		CE6A474B22AD5F1A008B8022 /* YouDrinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouDrinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6A474F22AD5F1A008B8022 /* YouDrinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouDrinkUITests.swift; sourceTree = "<group>"; };
 		CE6A475122AD5F1A008B8022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7B559F230C9C21005349EA /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		CE7B55A1230CA5A9005349EA /* Participant+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Participant+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CE7B55A2230CA5A9005349EA /* Participant+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Participant+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		CE95E97E22B2E14A00B4EEED /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		CECF103F22EA21A800E6C624 /* CardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardService.swift; sourceTree = "<group>"; };
 		CECF104222EA220100E6C624 /* CardServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardServiceImpl.swift; sourceTree = "<group>"; };
-		CED2AA4B22B95B1100FD8A0E /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		CED2AA4B22B95B1100FD8A0E /* CardJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardJSON.swift; sourceTree = "<group>"; };
 		CED2AA4D22B95C8100FD8A0E /* cards.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cards.json; sourceTree = "<group>"; };
 		CED2AA4F22B9623600FD8A0E /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
-		CED2AA5D22B9721D00FD8A0E /* Participant+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Participant+CoreDataClass.swift"; sourceTree = "<group>"; };
-		CED2AA5E22B9721D00FD8A0E /* Participant+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Participant+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		CED2AA5F22B9721D00FD8A0E /* AbstractEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AbstractEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
 		CED2AA6022B9721D00FD8A0E /* AbstractEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AbstractEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		CED2AA6122B9721D00FD8A0E /* Game+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -111,8 +131,8 @@
 		CE1BBB6122AD991B00417A64 /* coreDataModels */ = {
 			isa = PBXGroup;
 			children = (
-				CED2AA5D22B9721D00FD8A0E /* Participant+CoreDataClass.swift */,
-				CED2AA5E22B9721D00FD8A0E /* Participant+CoreDataProperties.swift */,
+				CE7B55A1230CA5A9005349EA /* Participant+CoreDataClass.swift */,
+				CE7B55A2230CA5A9005349EA /* Participant+CoreDataProperties.swift */,
 				CED2AA5F22B9721D00FD8A0E /* AbstractEntity+CoreDataClass.swift */,
 				CED2AA6022B9721D00FD8A0E /* AbstractEntity+CoreDataProperties.swift */,
 				CED2AA6122B9721D00FD8A0E /* Game+CoreDataClass.swift */,
@@ -126,6 +146,7 @@
 			children = (
 				CE95E97E22B2E14A00B4EEED /* CoreDataManager.swift */,
 				CE1BBB6922ADB27200417A64 /* ParticipantCell.swift */,
+				CE3AF0462303FA390041B3D8 /* CardFactory.swift */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -136,6 +157,7 @@
 				CECF104122EA21EE00E6C624 /* impl */,
 				CE33A03422BA7D260097CE36 /* GameService.swift */,
 				CECF103F22EA21A800E6C624 /* CardService.swift */,
+				CE53572B230493C600B61E88 /* ParticipantService.swift */,
 			);
 			path = services;
 			sourceTree = "<group>";
@@ -146,6 +168,16 @@
 				CE33A03722BA7FA80097CE36 /* GameException.swift */,
 			);
 			path = exceptions;
+			sourceTree = "<group>";
+		};
+		CE3AF0432303F9370041B3D8 /* cardImpl */ = {
+			isa = PBXGroup;
+			children = (
+				CE3AF0442303F9570041B3D8 /* SimpleCard.swift */,
+				CE3AF0482303FC3C0041B3D8 /* ExtraLifeCard.swift */,
+				CE3AF04A2303FCEC0041B3D8 /* QuestionCard.swift */,
+			);
+			path = cardImpl;
 			sourceTree = "<group>";
 		};
 		CE6A472022AD5F16008B8022 = {
@@ -178,6 +210,7 @@
 				CE6A472C22AD5F16008B8022 /* AppDelegate.swift */,
 				CE6A473022AD5F16008B8022 /* Main.storyboard */,
 				CE6A473622AD5F19008B8022 /* Assets.xcassets */,
+				CE7B559F230C9C21005349EA /* Media.xcassets */,
 				CE6A473822AD5F19008B8022 /* LaunchScreen.storyboard */,
 				CE6A473B22AD5F19008B8022 /* Info.plist */,
 				CE6A473322AD5F16008B8022 /* YouDrink.xcdatamodeld */,
@@ -210,6 +243,7 @@
 				CE1BBB6422AD99F000417A64 /* MainVC.swift */,
 				CE1BBB6622AD9EFC00417A64 /* NewGameVC.swift */,
 				CED2AA4F22B9623600FD8A0E /* GameVC.swift */,
+				CE53572F2304A0A800B61E88 /* EditParticipantVC.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -217,9 +251,11 @@
 		CE6A476022AD5FF5008B8022 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				CE3AF0432303F9370041B3D8 /* cardImpl */,
 				CE33A03622BA7F8D0097CE36 /* exceptions */,
 				CE1BBB6122AD991B00417A64 /* coreDataModels */,
-				CED2AA4B22B95B1100FD8A0E /* Card.swift */,
+				CED2AA4B22B95B1100FD8A0E /* CardJSON.swift */,
+				CE0760F02300694100ABB7D3 /* Card.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -228,6 +264,8 @@
 			isa = PBXGroup;
 			children = (
 				CECF104222EA220100E6C624 /* CardServiceImpl.swift */,
+				CE3AF04C23043F040041B3D8 /* GameServiceImpl.swift */,
+				CE53572D2304948500B61E88 /* ParticipantServiceImpl.swift */,
 			);
 			path = impl;
 			sourceTree = "<group>";
@@ -336,6 +374,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE7B55A0230C9C21005349EA /* Media.xcassets in Resources */,
 				CE6A473A22AD5F19008B8022 /* LaunchScreen.storyboard in Resources */,
 				CE6A473722AD5F19008B8022 /* Assets.xcassets in Resources */,
 				CE6A473222AD5F16008B8022 /* Main.storyboard in Resources */,
@@ -366,22 +405,31 @@
 			files = (
 				CE1BBB6A22ADB27200417A64 /* ParticipantCell.swift in Sources */,
 				CED2AA5022B9623600FD8A0E /* GameVC.swift in Sources */,
-				CED2AA6322B9721D00FD8A0E /* Participant+CoreDataClass.swift in Sources */,
-				CED2AA6422B9721D00FD8A0E /* Participant+CoreDataProperties.swift in Sources */,
-				CED2AA4C22B95B1100FD8A0E /* Card.swift in Sources */,
+				CE3AF0472303FA390041B3D8 /* CardFactory.swift in Sources */,
+				CE5357302304A0A800B61E88 /* EditParticipantVC.swift in Sources */,
+				CE3AF04D23043F040041B3D8 /* GameServiceImpl.swift in Sources */,
+				CED2AA4C22B95B1100FD8A0E /* CardJSON.swift in Sources */,
 				CE1BBB6522AD99F000417A64 /* MainVC.swift in Sources */,
+				CE0760F12300694100ABB7D3 /* Card.swift in Sources */,
+				CE53572E2304948500B61E88 /* ParticipantServiceImpl.swift in Sources */,
 				CE6A473522AD5F16008B8022 /* YouDrink.xcdatamodeld in Sources */,
 				CE33A03822BA7FA80097CE36 /* GameException.swift in Sources */,
 				CED2AA6722B9721D00FD8A0E /* Game+CoreDataClass.swift in Sources */,
 				CECF104022EA21A800E6C624 /* CardService.swift in Sources */,
 				CE6A472D22AD5F16008B8022 /* AppDelegate.swift in Sources */,
 				CECF104322EA220100E6C624 /* CardServiceImpl.swift in Sources */,
+				CE7B55A3230CA5A9005349EA /* Participant+CoreDataClass.swift in Sources */,
+				CE3AF04B2303FCEC0041B3D8 /* QuestionCard.swift in Sources */,
+				CE3AF0492303FC3C0041B3D8 /* ExtraLifeCard.swift in Sources */,
 				CE95E97F22B2E14A00B4EEED /* CoreDataManager.swift in Sources */,
+				CE7B55A4230CA5A9005349EA /* Participant+CoreDataProperties.swift in Sources */,
 				CE33A03522BA7D260097CE36 /* GameService.swift in Sources */,
 				CE1BBB6722AD9EFC00417A64 /* NewGameVC.swift in Sources */,
 				CED2AA6622B9721D00FD8A0E /* AbstractEntity+CoreDataProperties.swift in Sources */,
+				CE53572C230493C600B61E88 /* ParticipantService.swift in Sources */,
 				CED2AA6522B9721D00FD8A0E /* AbstractEntity+CoreDataClass.swift in Sources */,
 				CED2AA6822B9721D00FD8A0E /* Game+CoreDataProperties.swift in Sources */,
+				CE3AF0452303F9570041B3D8 /* SimpleCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

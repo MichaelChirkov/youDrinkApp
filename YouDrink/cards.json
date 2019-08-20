@@ -1,40 +1,22 @@
 {
     "cards":[
         {
-            "title": "first card",
-            "count": 16
+            "title": "ты пьешь",
+            "count": 4,
+            "frontImage": "frontImage1",
+            "classname": "simpleAction"
         },
         {
-            "title": "first2 card",
-            "count": 16
+            "title": "first2 card2",
+            "count": 4,
+            "frontImage": "frontImage1",
+            "classname": "NoAction"
         },
         {
-            "title": "first3 card",
-            "count": 16
-        },
-        {
-            "title": "first4 card",
-            "count": 16
-        },
-        {
-            "title": "first5 card",
-            "count": 16
-        },
-        {
-            "title": "first6 card",
-            "count": 16
-        },
-        {
-            "title": "first7 card",
-            "count": 16
-        },
-        {
-            "title": "first8 card",
-            "count": 16
-        },
-        {
-            "title": "first9 card",
-            "count": 16
+            "title": "ты пьешь",
+            "count": 4,
+            "frontImage": "frontImage1",
+            "classname": "simpleAction"
         }
     ]
 }

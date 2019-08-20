@@ -10,29 +10,33 @@ import Foundation
 import CoreData
 
 
-class GameService {
+protocol GameService {
     
-    static let shared = GameService()
+    var game: Game {get set}
+    var participants: [Participant] {get set}
+    var cards: [Card] {get set}
     
-    private init() {}
+    var cardService: CardService {get set}
+    var playerIndex: Int {get set}
+    var currentPlayer: Participant {get set}
     
-    func getGame() -> Game? {
-        
-        do {
-            let fetchRequest : NSFetchRequest<Game> = Game.fetchRequest()
-            fetchRequest.predicate = NSPredicate(format: "endDate = nil")
-            
-            let results = try CoreDataManager.shared.persistentContainer.viewContext.fetch(fetchRequest)
-            
-            guard !results.isEmpty else {
-                return nil
-            }
-            
-            return results[0]
-        } catch {
-            print(error)
-        }
-        
-        return nil
-    }
+    func endGame()
+    func nextPlayer()
+    func faceUpCard()
+//    static let shared = GameService()
+//
+//    private init() {}
+//
+
+//
+//
+//    func endGame() {
+//        let game = getGame()
+//        guard let unwrappedGame = game else { return }
+//        unwrappedGame.endDate = NSDate()
+//
+//        CoreDataManager.shared.saveContext()
+//
+//        print("game endDate method is called")
+//    }
 }

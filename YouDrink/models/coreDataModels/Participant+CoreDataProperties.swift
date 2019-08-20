@@ -2,7 +2,7 @@
 //  Participant+CoreDataProperties.swift
 //  YouDrink
 //
-//  Created by user on 18/06/2019.
+//  Created by user on 21/08/2019.
 //  Copyright © 2019 Chirkov. All rights reserved.
 //
 //
@@ -18,7 +18,7 @@ extension Participant {
     }
 
     @NSManaged public var name: String?
-    @NSManaged public var score: Int16
+    @NSManaged public var photo: NSData?
     @NSManaged public var game: Game?
 
 }

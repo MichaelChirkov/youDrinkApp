@@ -11,6 +11,7 @@ import UIKit
 class ParticipantCell: UITableViewCell {
 
     @IBOutlet weak var participantNameLabel: UILabel!
+    @IBOutlet weak var participantImageView: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()

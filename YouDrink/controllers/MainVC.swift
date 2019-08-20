@@ -13,7 +13,7 @@ class MainVC: UIViewController {
 
     @IBOutlet weak var startGameButton: UIButton!
     
-    @IBAction func unwindToMainVC(segue: UIStoryboardSegue){
+    @IBAction func unwindToMainVC(segue: UIStoryboardSegue) {
         
     }
     
